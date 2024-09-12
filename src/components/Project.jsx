@@ -37,9 +37,10 @@ const projects = [
     description: 'This is a personal memoir website utilizing ChatGPT Open API for psychological analysis and advice based on user inputs. It helped me gain more knowledge of Open API and design tools as well as new framework Vite',
     stack: [
       { title: 'Period', description: 'August 2024 ~ August 2024' },
-      { title: 'Tech Stack', description: 'React, Javascript, HTML5, CSS3, Vite, AntD' },
+      { title: 'Tech Stack', description: 'React, Javascript, HTML5, CSS3, Vite, AntD, Heroku' },
       { title: 'GitHub-Front', description: 'GitHub', link: 'https://github.com/jumoonlove/Memoircraft-Front' },
       { title: 'GitHub-Back', description: 'GitHub', link: 'https://github.com/jumoonlove/Memoircraft-Back' },
+      { title: 'Live Site', description: 'Live Site', link: 'https://jumoonlove.github.io/Memoircraft-Front/' }
     ],
     photos: [photo1Project2]
   },
