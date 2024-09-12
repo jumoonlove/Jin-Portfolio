@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Jin's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a portfolio website created using React. The project was bootstrapped with Create React App.
+
+## Getting Started
+
+To get started with this project, clone the repository and install the necessary dependencies:
+
+# git clone <repository-url>
+# cd <repository-directory>
+# npm install
+
+Once all dependencies are installed, you can run the app using the available scripts listed below.
 
 ## Available Scripts
 
@@ -31,13 +41,27 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Libraries Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This portfolio project uses several additional libraries to enhance styling, navigation, and UI components:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React Bootstrap: Simplifies the use of Bootstrap components in React.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# npm install react-bootstrap bootstrap
+Documentation: React Bootstrap
+
+Styled Components: Allows you to write CSS in JS for component-based styling.
+
+# npm install styled-components
+Documentation: Styled Components
+React Icons: Provides a collection of popular icons for React applications.
+
+# npm install react-icons --save
+Documentation: React Icons
+React Scroll: Adds smooth scrolling effects to elements within the page.
+
+# npm install react-scroll
+Documentation: React Scroll
 
 ## Learn More
 
