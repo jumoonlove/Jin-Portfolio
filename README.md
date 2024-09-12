@@ -6,9 +6,9 @@ This is a portfolio website created using React. The project was bootstrapped wi
 
 To get started with this project, clone the repository and install the necessary dependencies:
 
-# git clone <repository-url>
-# cd <repository-directory>
-# npm install
+### git clone <repository-url>
+### cd <repository-directory>
+### npm install
 
 Once all dependencies are installed, you can run the app using the available scripts listed below.
 
@@ -47,20 +47,20 @@ This portfolio project uses several additional libraries to enhance styling, nav
 
 React Bootstrap: Simplifies the use of Bootstrap components in React.
 
-# npm install react-bootstrap bootstrap
+### npm install react-bootstrap bootstrap
 Documentation: React Bootstrap
 
 Styled Components: Allows you to write CSS in JS for component-based styling.
 
-# npm install styled-components
+### npm install styled-components
 Documentation: Styled Components
 React Icons: Provides a collection of popular icons for React applications.
 
-# npm install react-icons --save
+### npm install react-icons --save
 Documentation: React Icons
 React Scroll: Adds smooth scrolling effects to elements within the page.
 
-# npm install react-scroll
+### npm install react-scroll
 Documentation: React Scroll
 
 ## Learn More
