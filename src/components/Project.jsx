@@ -25,9 +25,9 @@ const projects = [
     description: `This is a portfolio website for my career, which is this website that you are on. I was able to be more proficient in setting structures and using Styled components through this project.`,
     stack: [
       { title: 'Period', description: 'August 2024 ~ September 2024' },
-      { title: 'Tech Stack', description: 'React, Javascript, HTML5, CSS3, Bootstrap, Styled Component' },
-      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/hcdg1/timebox' },
-      { title: 'Live Site', description: 'Live Site', link: 'https://timebox-planner.co.kr' }
+      { title: 'Tech Stack', description: 'React, Javascript, HTML5, CSS3, Bootstrap, Styled Component, Firebase' },
+      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/jumoonlove/Jin-Portfolio' },
+      { title: 'Live Site', description: 'Live Site', link: 'https://jin-portfolio-bdcb0.web.app' }
     ],
     photos: [photo1Project1, photo2Project1, photo3Project1, photo4Project1]
   },
@@ -38,8 +38,8 @@ const projects = [
     stack: [
       { title: 'Period', description: 'August 2024 ~ August 2024' },
       { title: 'Tech Stack', description: 'React, Javascript, HTML5, CSS3, Vite, AntD' },
-      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/example/another_project' },
-      { title: 'Live Site', description: 'Live Site', link: 'https://example-another-project.com' }
+      { title: 'GitHub-Front', description: 'GitHub', link: 'https://github.com/jumoonlove/Memoircraft-Front' },
+      { title: 'GitHub-Back', description: 'GitHub', link: 'https://github.com/jumoonlove/Memoircraft-Back' },
     ],
     photos: [photo1Project2]
   },
@@ -50,8 +50,7 @@ const projects = [
     stack: [
       { title: 'Period', description: 'April 2024 ~ September 2024' },
       { title: 'Tech Stack', description: 'React, Javascript, HTML5, CSS3, Docker, AWS' },
-      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/example/another_project' },
-      { title: 'Live Site', description: 'Live Site', link: 'https://example-another-project.com' }
+      { title: 'Github', description: 'Private' },
     ],
     photos: [photo1Project3, photo2Project3, photo3Project3, photo4Project3, photo5Project3]
   },
@@ -62,20 +61,19 @@ const projects = [
     stack: [
       { title: 'Period', description: 'March 2024 ~ April 2024' },
       { title: 'Tech Stack', description: 'React, Javascript, HTML5, CSS3'},
-      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/example/another_project' },
-      { title: 'Live Site', description: 'Live Site', link: 'https://example-another-project.com' }
+      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/jumoonlove/Jin-blog' },
     ],
     photos: [photo1Project4, photo2Project4, photo3Project4, photo4Project4]
   },
   {
     title: 'Ninja Attack',
     date: '2024.03 (Personal project)',
-    description: 'This is a personal game I developed using vanilla Javascript. It helped me basic grammars of Javascript and web developing',
+    description: 'This is a personal game I developed using vanilla Javascript. It helped me basic grammars of Javascript and web developing. Interface: Arrow keys - Move / X - Attack / C - Dodge / Enter - Interact with NPC',
     stack: [
       { title: 'Period', description: 'February 2024 ~ March 2024' },
       { title: 'Tech Stack', description: 'Javascript, HTML5, CSS3' },
-      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/example/another_project' },
-      { title: 'Live Site', description: 'Live Site', link: 'https://example-another-project.com' }
+      { title: 'GitHub', description: 'GitHub', link: 'https://github.com/jumoonlove/Ninja_Attack' },
+      { title: 'Live Site', description: 'Live Site', link: 'https://jumoonlove.github.io/Ninja_Attack/' }
     ],
     photos: [photo1Project5]
   }
@@ -84,7 +82,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <SectionContainer style={{ borderBottom: 0 }}>
+    <SectionContainer id="projects-section" style={{ borderBottom: 0 }}>
       <ProjectContainer>
         <h1>Projects</h1>
         {projects.map((project, index) => (

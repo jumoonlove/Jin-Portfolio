@@ -1,4 +1,3 @@
-import React from 'react';
 import { SectionContainer } from './Styles/Container/SectionContainer.style';
 import { ProfileContainer } from './Styles/About/ProfileContainer.style';
 import { Photo } from './Styles/About/Photo.style';
@@ -13,7 +12,7 @@ const About = () => {
     <SectionContainer id="about-section">
       <ProfileContainer>
         <h1>About</h1>
-        <Content>
+        <Content data-aos="fade-up">
           <Photo>
             <img src={profile} alt="profile" />
           </Photo>
@@ -31,13 +30,13 @@ const About = () => {
             </ul>
             <ul>
               <li>
-                <a href="https://github.com/jumoonlove">
+                <a href="https://github.com/jumoonlove" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
                   <span>GitHub</span>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/jinsung-park-1106a0275/">
+                <a href="https://www.linkedin.com/in/jinsung-park-1106a0275/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin />
                   <span>LinkedIn</span>
                 </a>

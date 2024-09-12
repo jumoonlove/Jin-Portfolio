@@ -37,7 +37,7 @@ const Skill = () => {
     <SectionContainer id="skills-section">
         <Progress>
           <h1>Main Skills</h1>
-          <ul>
+          <ul data-aos="fade-up">
             {
               mainSkills.map((ele) => {
                 return (

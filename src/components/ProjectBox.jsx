@@ -9,7 +9,7 @@ import PhotoCarousel from './PhotoCarousel';
 const ProjectBox = ({ title, date, description, github, liveSite, stack, photos }) => {
   
   return (
-    <ProjectContainerBox>
+    <ProjectContainerBox data-aos="fade-up">
       <ProjectContent>
         <PhotoCarousel photos={photos} />
         <ProjectDescriptionContainer>
