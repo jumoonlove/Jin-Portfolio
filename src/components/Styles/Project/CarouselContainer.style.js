@@ -7,8 +7,8 @@ export const CarouselContainer = styled.div`
   width: 40%;
 
   .photo-frame {
-    width: 300px; /* Set fixed width */
-    height: 500px; /* Set fixed height */
+    width: 300px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +22,10 @@ export const CarouselContainer = styled.div`
   img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover; /* Ensure the image scales correctly without distortion */
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
