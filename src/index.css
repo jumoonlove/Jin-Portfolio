@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.typeit {
+  font-size: 34px;
+  color: white;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+}
+
+.typeit span {
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.typeit span:hover {
+  color: #ffefd6;
+}
